@@ -1,0 +1,48 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Raleway:wght@200;400;500;600&display=swap');
+
+/* global css */
+:root{
+/* global fonts families */
+--primary-fonts:'Poppins', sans-serif;
+--secondary-fonts: 'Raleway', sans-serif;
+
+/* color */
+--heading-font-color:#124265;
+--descripton-font-color:#6c757d;
+--color-white:#fff;
+--light-blue:#00B4FF;
+--black:#000;
+}
+.active{
+    color:var(--light-blue)!important;
+}
+/* header area */
+.get-started{
+    color:var(--color-white);
+    background-color: var(--light-blue)!important;
+}
+.border-color{
+    border-bottom: 1px snow;
+}
+
+li.nav-item a {
+    font-size: 14px;
+    font-family: var(--primary-fonts);
+    color:var(--black);
+}
+.fixed-top{
+    background-color: #fff;
+    box-shadow: 2px 15px rgba(18, 66, 101, 0.08)
+}
+
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
