@@ -61,7 +61,53 @@ li.nav-item a {
 .icon{
     width:;
 }
-
+/* about-area */
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #124265;
+}
+.section-title p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #919191;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    
+}
+.col-6 ul{
+    list-style: none;
+}
+.about .content ul i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #2487ce;
+    line-height: 1;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
 
 
 body{
