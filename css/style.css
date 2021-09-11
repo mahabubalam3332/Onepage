@@ -123,6 +123,17 @@ ul li {
     font-weight: 900;
     color: var(--heading-font-color);
 }
+/* about */
+
+
+/* client-area */
+.clients {
+    padding:15px 0;
+    text-align: center;
+}
+.section-bg {
+    background-color: #f8fbfe;
+}
 
 
 
