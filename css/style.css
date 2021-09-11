@@ -62,13 +62,11 @@ li.nav-item a {
 /* about-area */
 .section-title {
     text-align: center;
-    padding-bottom: 30px;
 }
 .section-title h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
     padding-bottom: 0;
     color: #124265;
 }
@@ -133,7 +131,15 @@ ul li {
 }
 /* testimonial-area */
 
-
+/* Call to action */
+.btn-bg{
+    color:#FFFFFF;
+    box-sizing: border-box;
+}
+.btn-bg:hover{
+background: #FFFFFF;
+color:#2487CE;
+}
 
 
 body{
