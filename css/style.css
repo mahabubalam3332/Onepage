@@ -31,10 +31,6 @@
     color:var(--color-white);
     background-color: var(--light-blue)!important;
 }
-.get-started{
-    color:var(--color-white);
-    background-color: var(--light-blue)!important;
-}
 .border-color{
     border-bottom: 1px solid #e6f2fb ;
 }
@@ -140,6 +136,23 @@ ul li {
 background: #FFFFFF;
 color:#2487CE;
 }
+/* pricing */
+.card.h-100 ul li {
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.buy-now{
+    background-color: #f8fbfe;
+    color: #46A1DA;
+    box-sizing: border-box;
+    border:#000;
+}
+.buy-now:hover{
+    background-color: #46A1DA;
+    color: #f8fbfe;
+}
+
 
 
 body{
