@@ -55,6 +55,12 @@ li.nav-item a {
 .hero-all{
     background-image: url(../images/background-images/hero-bg.jpg);
 }
+.icon-box:{
+    transition: all 0.3s;
+}
+.icon-box:hover{
+    transform: scale(1.08);
+}
 /* about-area */
 .section-title {
     text-align: center;
@@ -125,6 +131,15 @@ ul li {
 .section-bg {
     background-color: #f8fbfe;
 }
+.filter{
+    filter:grayscale(100%);
+    transform: scale(.8);
+    transition: 0.3s;
+}
+.filter:hover{
+    filter: grayscale(1);
+    transform:scale(1);
+}
 /* testimonial-area */
 
 /* Call to action */
@@ -135,6 +150,38 @@ ul li {
 .btn-bg:hover{
 background: #FFFFFF;
 color:#2487CE;
+}
+/* team-area */
+
+.social {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.8;
+    transition:all .9s ease ;
+    padding:12px;
+    bottom:22px;
+    background: rgba(255, 255, 255, 0.85);
+}
+.social:hover{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0.8;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+} 
+.social i{
+    transition:.3s;
+}
+.social i:hover{
+   color:red;
 }
 /* pricing */
 .card.h-100 ul li {
